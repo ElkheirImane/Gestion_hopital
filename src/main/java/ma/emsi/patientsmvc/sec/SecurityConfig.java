@@ -28,8 +28,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private PasswordEncoder passwordEncoder;
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-
-
          /*
         String encodedPWD=passwordEncoder.encode("1234");
         System.out.println(encodedPWD);
@@ -48,7 +46,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService);
 
     }
-
     @Override
     // LA METHODE POUR SPECIFIER LES DROITS D'ACCES
     protected void configure(HttpSecurity http) throws Exception {

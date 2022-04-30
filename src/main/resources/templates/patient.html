@@ -42,7 +42,6 @@
                     <a onclick="return confirm('Etes vous sure?')" class="btn btn-danger" th:href="@{/admin/delete(id=${p.id}, keyword=${keyword}, page=${currentPage})}">
                         Delete
                     </a>
-
                 </td>
                 <td sec:authorize="hasAuthority('ADMIN')">
                     <a class="btn btn-success" th:href="@{/admin/editPatient(id=${p.id}, keyword=${keyword}, page=${currentPage})}">
