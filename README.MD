@@ -55,7 +55,7 @@ nouveau medecin
 
 Consulter les patients
 
-<img src="capture/patient.PNG">
+<img src="capture/patients.PNG">
 
 Consulter les medecins
 
