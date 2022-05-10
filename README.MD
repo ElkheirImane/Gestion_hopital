@@ -1,6 +1,7 @@
 <h2> Compte rendu </h2>
 <p>
-la création d'une application qui permet de gérer des patients.<br>
+la création d'une application qui permet de gérer des patients et des medecins .<br>
+
 Chaque <b>patient</b> est défini par :<br>
 • Son ID de type Long <br>
 • Son Nom de type String<br>
