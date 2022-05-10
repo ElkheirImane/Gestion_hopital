@@ -1,12 +1,19 @@
 <h2> Compte rendu </h2>
 <p>
 la création d'une application qui permet de gérer des patients.<br>
-Chaque patient est défini par :<br>
+Chaque <b>patient</b> est défini par :<br>
 • Son ID de type Long <br>
 • Son Nom de type String<br>
 • Sa Date de naissance<br>
 • Un attribut qui indique si le patient est malade ou non<br>
 • Un score de type int<br>
+
+Chaque <b>medecin</b> est défini par :<br>
+• Son ID de type Long <br>
+• Son Nom de type String<br>
+• Sa Date de naissance<br>
+• Un attribut qui indique si le medecin est malade ou non<br>
+• Sa specialité de type string<br>
 
 L’applications permettra aux :<br>
 <b>utilisateurs de:</b><br>
